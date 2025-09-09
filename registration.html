@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form action="submit.php" method="post">
+        <!-- Full Name -->
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required>
+        <br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br><br>
+
+        <!-- Date of Birth -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+
+        <!-- Phone Number -->
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone">
+        <br><br>
+
+        <!-- Address -->
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="40"></textarea>
+        <br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+    </form>
+</body>
+</html>
